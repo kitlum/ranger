@@ -8,7 +8,7 @@ Please, use example.html file as
 
 1. First you need have JQuery and JQuery UI added to your page. The easiest way to do it is add
     &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    &lt;script src=" http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"&gt&lt;/script&gt
+    &lt;script src=" http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
 2. Download and add to your page "ranger.js" from this project.
 3. Each range selector you have to insert in different block 
     &lt;div class="ktl-slider-group">&lt;/div>
