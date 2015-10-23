@@ -22,4 +22,3 @@ Please, use example.html file as
  Empty paragraph 
  <p class="ktl-slider"></p> in place, where you want to put slider.
 8. You can use a lot of blocks <div class="ktl-slider-group"></div>  if you want to have more selectors without changing ranger.js file.
- 
