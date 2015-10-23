@@ -7,18 +7,18 @@ Both possibilities are linked. Also there are places to set availiable range. It
 Please, use example.html file as 
 
 1. First you need have JQuery and JQuery UI added to your page. The easiest way to do it is add
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src=" http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
-    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/cupertino/jquery-ui.css">
+    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">&lt;/script>
+    &lt;script src=" http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js">&lt;/script>
+    &lt;link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/cupertino/jquery-ui.css">
 
 2. Download and add to your page "ranger.js" from this project.
 3. Each range selector you have to insert in different block 
-    <div class="ktl-slider-group"></div>
+    &lt;div class="ktl-slider-group">&lt;/div>
 4. In this block you have to had next elements in any order:
 
- 4.1.Two inputs <input type="text" class="ktl-input-min"> and <input type="text" class="ktl-input-max"> to set and display current range.
+ 4.1.Two inputs &lt;input type="text" class="ktl-input-min"> and &lt;input type="text" class="ktl-input-max"> to set and display current range.
 
- 4.2.Two hidden paragraphs <p class="ktl-default-min" hidden></p> and <p class="ktl-default-max" hidden></p> to store available range.
+ 4.2.Two hidden paragraphs &lt;p class="ktl-default-min" hidden>&lt;/p> and &lt;p class="ktl-default-max" hidden>&lt;/p> to store available range.
  
- 4.3. Empty paragraph <p class="ktl-slider"></p> in place, where you want to put slider.
-5. You can use a lot of blocks <div class="ktl-slider-group"></div>  if you want to have more selectors without changing ranger.js file.
+ 4.3. Empty paragraph &lt;p class="ktl-slider">&lt;/p> in place, where you want to put slider.
+5. You can use a lot of blocks &lt;div class="ktl-slider-group">&lt;/div>  if you want to have more selectors without changing ranger.js file.
