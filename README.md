@@ -1,7 +1,7 @@
 # Ranger
-Simple js code, which helps you add to your e-catalog range selector.
+Simple js code, which helps you add range selector ( eg. price range, size range) to your e-catalog.
 It is possible to change range by changing values in min and max inputs and by moving slider.
-Both possibilities are linked. Also there are places to set availiable range. It is possible to have more than one selector in page. The code use JQuery UI library.
+Both possibilities are linked. Also there are places to set availiable range. It is possible to have more than one selector in page. The code use JQueryUI library.
 
 #How to use
 Please, use example.html file as 
