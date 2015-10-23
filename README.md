@@ -13,8 +13,8 @@ Please, use example.html file as
 3. Each range selector you have to insert in different block 
     <div class="ktl-slider-group"></div>
 4. In this block you have to had next elements in any order:
-4.1. Two inputs <input type="text" class="ktl-input-min"> and <input type="text" class="ktl-input-max"> to set and display current range.
-4.2. Two hidden paragraphs <p class="ktl-default-min" hidden></p> and <p class="ktl-default-max" hidden></p> to store available range.
-4.3. Empty paragraph <p class="ktl-slider"></p> in place, where you want to put slider.
-5. You can use a lot of blocks <div class="ktl-slider-group"></div>  if you want to have more selectors without changing ranger.js file.
+5. Two inputs <input type="text" class="ktl-input-min"> and <input type="text" class="ktl-input-max"> to set and display current range.
+6. Two hidden paragraphs <p class="ktl-default-min" hidden></p> and <p class="ktl-default-max" hidden></p> to store available range.
+7. Empty paragraph <p class="ktl-slider"></p> in place, where you want to put slider.
+8. You can use a lot of blocks <div class="ktl-slider-group"></div>  if you want to have more selectors without changing ranger.js file.
  
