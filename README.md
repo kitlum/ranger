@@ -7,18 +7,18 @@ Both possibilities are linked. Also there are places to set availiable range. It
 Please, use example.html file as 
 
 1. First you need have JQuery and JQuery UI added to your page. The easiest way to do it is add
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src=" http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"&gt;&lt;/script&gt
+    &lt;script src=" http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"&gt&lt;/script&gt
 2. Download and add to your page "ranger.js" from this project.
 3. Each range selector you have to insert in different block 
-    <div class="ktl-slider-group"></div>
+    &lt;div class="ktl-slider-group">&lt;/div>
 4. In this block you have to had next elements in any order:
  Two inputs 
- <input type="text" class="ktl-input-min"> and <input type="text" class="ktl-input-max"> 
+ &lt;input type="text" class="ktl-input-min"&gt and &lt;input type="text" class="ktl-input-max"&gt 
  to set and display current range.
  Two hidden paragraphs 
- <p class="ktl-default-min" hidden></p> and <p class="ktl-default-max" hidden></p> 
+ &lt;p class="ktl-default-min" hidden>&lt;/p&gt and &lt;p class="ktl-default-max" hidden&gt&lt;/p&gt 
  to store available range.
  Empty paragraph 
- <p class="ktl-slider"></p> in place, where you want to put slider.
-8. You can use a lot of blocks <div class="ktl-slider-group"></div>  if you want to have more selectors without changing ranger.js file.
+ &lt;p class="ktl-slider"&gt&lt;/p&gt in place, where you want to put slider.
+8. You can use a lot of blocks &lt;div class="ktl-slider-group"&gt&lt;/div&gt  if you want to have more selectors without changing ranger.js file.
