@@ -17,3 +17,4 @@ Please, use example.html file as
 4.2. Two hidden paragraphs <p class="ktl-default-min" hidden></p> and <p class="ktl-default-max" hidden></p> to store available range.
 4.3. Empty paragraph <p class="ktl-slider"></p> in place, where you want to put slider.
 5. You can use a lot of blocks <div class="ktl-slider-group"></div>  if you want to have more selectors without changing ranger.js file.
+ 
