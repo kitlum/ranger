@@ -1,0 +1,63 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/cupertino/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src=" http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+    <script src="../Ranger.js"></script>
+    <style type="text/css">
+   
+    .block { 
+    width: 210px; 
+    padding: 5px;
+    padding-right: 20px; 
+    position: relative;
+   }
+   .block1 { 
+    width: 60px; 
+    float: left; 
+    position: absolute; 
+    top: 30px; 
+    left: 10px; 
+   }
+    .block2 { 
+    width: 20px; 
+    float: left; 
+    position: absolute; 
+    top: 30px; 
+    left: 75px; 
+   }
+    .block3 { 
+    width: 60px; 
+    float: left; 
+    position: absolute; 
+    top: 30px; 
+    left: 90px; 
+   }
+    input{
+    width: 100%;        
+    }
+  </style> 
+</head>
+<body>
+   <div class="block">
+    <div id="price" class="ktl-slider-group">
+        Price range:
+            <form>
+                <div class="block1">
+                <input type="text" class="ktl-input-min">
+                </div>
+                <div class="block2">
+                        -
+                </div>
+                <div class="block3">
+                <input type="text" class="form-control ktl-input-max">
+                </div>
+            </form> 
+            <br><p class="ktl-slider"></p><p class="ktl-default-min" hidden>10</p><p class="ktl-default-max" hidden>50</p>         
+    </div>
+    </div>        
+</body>
+</html>
