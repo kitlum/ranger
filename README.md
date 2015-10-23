@@ -7,8 +7,8 @@ Both possibilities are linked. Also there are places to set availiable range. It
 Please, use example.html file as 
 
 1. First you need have JQuery and JQuery UI added to your page. The easiest way to do it is add
-    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">&lt;/script>
-    &lt;script src=" http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js">&lt;/script>
+    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    &lt;script src=" http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
     &lt;link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/cupertino/jquery-ui.css">
 
 2. Download and add to your page "ranger.js" from this project.
